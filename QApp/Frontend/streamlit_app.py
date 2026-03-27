@@ -1,6 +1,6 @@
 # QApp/Frontend/streamlit_app.py
 import streamlit as st
-from QAppBackend.qa_service import answer_question
+from QApp.Backend.qa_service import answer_question
 import sys
 
 sys.path.insert(0, 'workspace/MLOPs-Docker-app3')
