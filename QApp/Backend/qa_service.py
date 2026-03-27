@@ -1,6 +1,8 @@
 # QApp/Backend/qa_service.py
-from Backend.data_access import get_docs
- 
+from QApp.Backend.data_access import get_docs
+import sys
+
+sys.path.insert(0, 'workspace/MLOPs-Docker-app3')
 def answer_question(question: str) -> str:
     docs = get_docs()
     q = question.lower()
