@@ -1,5 +1,5 @@
 # QApp/Backend/qa_service.py
-from data_access import get_docs
+from Backend.data_access import get_docs
  
 def answer_question(question: str) -> str:
     docs = get_docs()
